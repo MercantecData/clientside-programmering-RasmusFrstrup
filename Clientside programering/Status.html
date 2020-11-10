@@ -1,0 +1,35 @@
+<doctype! html>
+<html>
+<title>Bro Hjemmeside</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Css.Css">
+<body>
+<div class="Topnav">
+  <a href="Hjemmeside.html" class="Home-Button">HOME</a>
+  <a href="Fyssik_formler.html" class="Formler-Button">Fyssik-Formler</a>
+  <a class="active" href="Status.html" class="Status-Button">Bro status</a>
+  <a href="Bro_Beregninger.html" class="Beregninger-Button">BRO Beregninger</a>
+  <p id="showTime"></p>
+  </div>
+  <div class="BorgerView">
+    <h1>Status på Broen I Viborg</h1>
+    <br>
+    <p>Vil du tjeke Statusen på Broen nær dig.</p>
+    <form method="GET" action="https://madsbock-formtester.azurewebsites.net/">
+    <input type="checkbox" name="Status">
+    <input type="submit" value="Send">
+    </form> 
+  </div>
+
+
+
+</body>
+<footer>
+  <h3>Made by Frøstrup</h3>
+  <img id="Facebook" src="Image/Facebook.png">
+  <img id="Instagram" src="Image/Instagram.png">
+  <img id="Snapchat" src="Image/Snapchat.png">
+</footer>
+<script src="script.js"></script>
+</html>
