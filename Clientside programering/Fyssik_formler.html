@@ -3,34 +3,33 @@
 <title>Bro Hjemmeside</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta charset="UTF-8">
+<script src="script.js"></script>
 <link rel="stylesheet" href="Css.Css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body>
-<div class="Topnav">
-  <a href="Hjemmeside.html"><i class="fa fa-home"></i>HOME</a>
-  <a class="active" href="Fyssik_formler.html"><i class="fa fa-book"></i>Fyssik-Formler</a>
-  <a href="Status.html"><i class="fa fa-pie-chart"></i>Bro status</a>
-  <a href="Bro_Beregninger.html"><i class="fa fa-calculator"></i>BRO Beregninger</a>
-  <p id="showTime"></p>
-  </div>
+<body onload="setup()">
+  <div class="Topnav">
+    <a href="Generelt.html"><i class="fa fa-home"></i>HOME</a>
+    <a class="active" href="Fyssik_formler.html"><i class="fa fa-book"></i>Fyssik-Formler</a>
+    <a href="Bro_Beregninger.html"><i class="fa fa-calculator"></i>BRO-Beregninger</a>
+    <a href="Opgaven.html"><i class="fa fa-book"></i>Opgave-Beskrivelse</a>
+    <p id="showTime"></p>
+    </div>
   <div class="Formler til Beregninger">
+    <img id="BROPIC" src="Image/f3a40bf089e111f3e5f3a07efc6c8e94bb9bbd42.jpg" alt="Billed af en bro">
     <h1>HovedOmråde 1</h1>
     <h2>Teperatururen</h2>
-    <p>
-      <br><br><br><br><br><br><br>
-    </p>
-    <h2></h2>
     <p>
       <br><br><br><br><br><br>
     </p>
     <h1>HovedOmråde 2</h1>
-    <h2>VindHastigheden</h2>
+    <h2>VindStyrke</h2>
     <p>
-      <br><br><br><br><br><br><br>
-    </p>
-    <h2></h2>
-    <p>
-      <br><br><br><br><br><br>
+      I denne her opgave har vi valgt at beregne hvor meget vindstyrke, der skal til for at en lastbil ikke må kører over broen da, der er chance for at den kan vælte.<br>
+      For at finde ud af hvor stor en vindStyrke der skal til. Skal vi bruge arealet på siden af lastbilen. Derefter skal vi bruge vægten på hele køretøjet når den er lastet.<br>
+      Når vi har fået den data skal vi måle hvor hurtigt lastbillen kører og til sidst skal det hele lægges sammen i et regenestykke så vi kan finde ud af om lastbilen Vælter ved at kører over broen.<br>
+      Formlen er Beskrevet på denne måde:<br>
+      <img id="Formel-Luftmodstand" src="Image/Formel Luftmodstand.svg" alt="Billede af Formlen Til VindStyreken"><br>
+      <br><br><br>
     </p>
   </div>
 </body>
@@ -40,5 +39,4 @@
   <img id="Instagram" src="Image/Instagram.png">
   <img id="Snapchat" src="Image/Snapchat.png">
 </footer>
-<script src="script.js"></script>
 </html>

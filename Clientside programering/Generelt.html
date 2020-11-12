@@ -1,0 +1,299 @@
+<doctype! html>
+<html>
+<title>Bro Hjemmeside</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta charset="UTF-8">
+<script src="script.js"></script>
+<link rel="stylesheet" href="Css.Css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body onload="setup()">
+<div class="Topnav">
+  <a class="active" href="Generelt.html"><i class="fa fa-home"></i>HOME</a>
+  <a href="Fyssik_formler.html"><i class="fa fa-book"></i>Fyssik-Formler</a>
+  <a href="Bro_Beregninger.html"><i class="fa fa-calculator"></i>BRO-Beregninger</a>
+  <a href="Opgaven.html"><i class="fa fa-book"></i>Opgave-Beskrivelse</a>
+  <p id="showTime"></p>
+  </div>
+  <div class="Info">
+    <img id="BROPIC" src="Image/f3a40bf089e111f3e5f3a07efc6c8e94bb9bbd42.jpg" alt="Billed af en bro">
+    <h1>Generlt Info om broer</h1>
+    <br>
+    <h2>Bro typer</h2>
+<br>
+    <div class = "Bjælke_Bro">
+      <h3>Bjælke Bro</h3>
+      <img id="BroTyper" src="Image/tempsnip.png" alt="Billede af alle de forskelige Bro typer">
+      <p>
+        Bjælkebroer har som bærende hovedelementer et system af bjælker. Bjælkerne kan udføres massivt i træ eller armeret beton, som pladedragere i stål, kassedragere i stål eller armeret beton eller som gitterdragere i stål eller træ.<br> 
+        Der anvendes ikke natursten og murværk. Bjælkebroer dominerer i dag fuldstændig blandt broer med spændvidder fra ca. 15 m op til ca. 150 m, men de største spænd, som er overvundet med denne brotype, er dog væsentlig større: <br>
+        For betonbjælkebroer med kassedragere således lidt over 250 m, for stålbjælkebroer med kassedragere 300 m og med gitterdragere 549 m. Bjælkebroer med gitterdragere benævnes ofte blot gitterbroer. <br>
+        Tidligere benyttedes også betegnelsen cantileverbro for en bjælkebro, der var bygget frit frem fra pillerne til fagmidten, dvs. uden stilladsunderstøtninger.<br>
+      </p>
+        <h3>Verdens største Bjælkebroer efter Frie spænd</h3>
+
+        <table>
+        <tr>
+          <th>Navn</th>
+          <th>Sted</th>
+          <th>Frie spænd</th>
+          <th>Indviet</th>
+        </tr>
+        <tr>
+          <td>Guanabara Bay</td>
+          <td>Rio de Janerio, Brasilien</td>
+          <td>300 M</td>
+          <td>1973</td>
+        </tr>
+        <tr>
+          <td>Neckartal</td>
+          <td>Stuttgart, Tyskland</td>
+          <td>263 M</td>
+          <td>1978</td>
+        </tr>
+        <tr>
+          <td>Save I</td>
+          <td>Beograd, Serbien</td>
+          <td>261 M</td>
+          <td>1957</td>
+        </tr>
+        <tr>
+          <td>Gateway</td>
+          <td>Brisbane, Australien</td>
+          <td>260 M</td>
+          <td>1985</td>
+        </tr>
+        <tr>
+          <td>Zoo</td>
+          <td>Köln, Tyskland</td>
+          <td>259 M</td>
+          <td>1966</td>
+        </tr>
+        </table>
+
+    </div>
+<br>
+<br>
+    <div class="Ramme_Bro">
+      <h3>Ramme Bro</h3>
+      <img id="BroTyper" src="Image/Rammebro.PNG" alt="Billede af alle de forskelige Bro typer">
+      <p>
+        Rammebroer minder i deres opbygning meget om bjælkebroer, idet den væsentligste forskel ligger i, at den vandrette brodrager er fast forbundet til lodrette eller skrå rammeben, der fører helt ned til fundamenterne. <br>
+        En særlig fordel ved anvendelse af rammebroer er, at der opnås en større geometrisk frihed, når de understøttende rammeben kan stilles skråt, mens bjælkebroer nødvendigvis må understøttes på lodrette pilleskafter. <br>
+        Med skrå rammeben kan man i en række tilfælde tilpasse broens geometri bedre til de lokale forhold, fx hvor man skal passere en dal med skrånende skrænter eller holde en vis fri højde under broen på en del af strækningen mellem broens understøtninger. br
+        Rammebroer er anvendelige ved de samme spændvidder som bjælkebroer, og de udføres oftest med kassedragere i både rammebjælke og rammeben. <br>
+      </p>
+    </div>
+<br>
+<br>
+    <div class="Bue_Bro">
+      <h3>Bue Bro</h3>
+      <img id="BroTyper" src="Image/BueBro.PNG" alt="Billede af alle de forskelige Bro typer">
+      <p>
+        Buebroer består i moderne udgave af en brobane, der gennem søjler eller hængestænger forbindes til selve buerne, som spænder mellem hovedfundamenterne. <br>
+        Da buerne, der har form som halvcirkler eller parabler, bliver trykpåvirket, er buebroen særlig fordelagtig for materialer, som kun kan optage tryk, fx natursten med mørtelfuger samt uarmeret eller svagt armeret beton. <br>
+        Den største eksisterende buebro, New River Gorge-broen i Virginia, USA, med et spænd på 518 m, er dog af stål, mens den største betonbue, Krk-broen i Kroatien, spænder 390 m. <br>
+      </p>
+      <h3>Verdens største Buebroer efter Frie spænd</h3>
+
+        <table>
+        <tr>
+          <th>Navn</th>
+          <th>Sted</th>
+          <th>Frie spænd</th>
+          <th>Indviet</th>
+        </tr>
+        <tr>
+          <td>New River Gorge</td>
+          <td>Beckley, WV., USA</td>
+          <td>518 M</td>
+          <td>1977</td>
+        </tr>
+        <tr>
+          <td>Bayonne</td>
+          <td>New York, USA</td>
+          <td>511 M</td>
+          <td>1931</td>
+        </tr>
+        <tr>
+          <td>Sydney Harbour</td>
+          <td>Sydney,Australien</td>
+          <td>509 M</td>
+          <td>1932</td>
+        </tr>
+        <tr>
+          <td>Krk</td>
+          <td>Krk-Rijeka, Kroatien</td>
+          <td>390 M</td>
+          <td>1977</td>
+        </tr>
+        <tr>
+          <td>Fremont</td>
+          <td>Portland, OR., USA</td>
+          <td>383 M</td>
+          <td>1973</td>
+        </tr>
+        </table>
+    </div>
+<br>
+<br>
+    <div class="Hænge_Bro">
+      <h3>HængeBro</h3>
+      <img id="BroTyper" src="Image/HængeBro.PNG" alt="Billede af alle de forskelige Bro typer">
+      <p>
+        Hængebroen kan i en vis forstand betragtes som en omvendt buebro, idet det bærende hovedelement, kablet, ligeledes er krumt, men i en opadkrum (konkav) kurve. Dette medfører, at hængebro-kablerne bliver trækpåvirket, hvor buen er trykpåvirket. <br>
+        Hængebroer kræver derfor materialer med stor trækstyrke, og i dag benyttes udelukkende kabler opbygget af mange tusinde tråde af stål med særlig høj styrke. Eksempelvis er antallet af 5 mm tråde på Storebælts Østbro 18.648 til hvert af de to hovedkabler, som har en diameter på 85 cm. <br>
+        I hængebroer placeres hovedkablerne altid over brobanen, som følgelig ophænges i lodrette eller skrå hængekabler, der overfører belastningen til en række kabelklemmer på hovedkablerne, hvis konkave form medfører, at de må støttes højt oppe over brobanen på høje brotårne, kaldet pyloner. <br>
+        Herudover må hovedkablerne fortsættes i de tilstødende sidefag til fastgørelse i store ankerblokke. Brobanekonstruktionen i hængebroer indeholdt traditionelt gitterdragere, men i nyere tid benyttes mere og mere strømlinjeformede kassedragere. <br>
+        <br>
+        For at holde vægten nede er brobanekonstruktionen altid udført af stål, mens pylonerne både udføres i stål og beton. I forhold til andre brotyper er hængebroer karakteriseret ved en stor fleksibilitet, hvilket medfører, at de bliver mere vindfølsomme. <br>
+        Der findes eksempler på, at vindfremkaldte svingninger har ledt til nedstyrtninger, som det fx skete med Tacoma Narrow-broen i staten Washington, USA 1940. <br>
+        <br>
+        Kabeltrådenes store styrke gør det muligt at spænde længere med et hængebrosystem end med nogen anden brotype. Hængebroer er således de eneste broer, som i dag spænder frit mere end 1 km, og med bygningen af broen over Akashistrædet i Japan (færdig 1998) er man meget tæt på at nå et frit spænd på 2 km, nemlig 1990 m. <br>
+         Storebælts Østbro har et frit spænd på 1624 m. <br>
+      </p>
+      <h3>Verdens største Hængebroer efter Frie spænd</h3>
+
+        <table>
+        <tr>
+          <th>Navn</th>
+          <th>Sted</th>
+          <th>Frie spænd</th>
+          <th>Indviet</th>
+        </tr>
+        <tr>
+          <td>Akashi Kaikyo</td>
+          <td>Akashi, Japan</td>
+          <td>1990 M</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>Storebælts Østbro</td>
+          <td>Korsør, Danmark</td>
+          <td>1624 M</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>Humber</td>
+          <td>Hull, England</td>
+          <td>1410 M</td>
+          <td>1981</td>
+        </tr>
+        <tr>
+          <td>Jiangyin</td>
+          <td>Yangzhou, Kina</td>
+          <td>1385 M</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>Tsing Ma</td>
+          <td>HongKong</td>
+          <td>1377 M</td>
+          <td>1997</td>
+        </tr>
+        <tr>
+          <td>Verrazano Narrows</td>
+          <td>New York, USA</td>
+          <td>1298 M</td>
+          <td>1964</td>
+        </tr>
+        <tr>
+          <td>Golden Gate</td>
+          <td>San Francisco, USA</td>
+          <td>1280 M</td>
+          <td>1937</td>
+        </tr>
+        <tr>
+          <td>Höga Kusten</td>
+          <td>Sundsvall, Svergie</td>
+          <td>1200 M</td>
+          <td>1997</td>
+        </tr>
+        </table>
+    </div>
+<br>
+<br>
+    <div class="skråstags_Bro">
+      <h3>skråstags Bro</h3>
+      <img id="BroTyper" src="Image/SkråstagsBro.PNG" alt="Billede af alle de forskelige Bro typer">
+      <p>
+        Skråstagsbroen indeholder stort set de samme hovedelementer som hængebroen, dvs. brobanekonstruktion, pyloner og kabler. Der er imidlertid den forskel, at skråstagsbroens kabler alle føres retlinjet direkte fra pylonen til brodrageren. <br>
+        Det bliver herved naturligt at udføre skråstagsbroen selvforankret, dvs. uden de store ankerblokke, som er nødvendige i hængebroer. I skråstagsbroer udnyttes ligesom i hængebroer tråde med høj styrke til opbygning af de bærende kabler, og det er derfor også muligt at nå op på betydelige spændvidder. <br>
+        Blandt de længste skråstagsbroer er Pont de Normandie i Nordfrankrig med en spændvidde på 856 m, den 890 m lange japanske Tatara-bro og Russky Bridge med et spænd på 1104. Til sammenligning har Farøbroen en spændvidde på 290 m. <br>
+        Skråstagsbroer vil hermed bevæge sig ind i et område, som hidtil har været totalt domineret af hængebroer. <br>
+      </p>
+      <h3>Verdens største Skråstagsbroer efter Frie spænd</h3>
+
+        <table>
+        <tr>
+          <th>Navn</th>
+          <th>Sted</th>
+          <th>Frie spænd</th>
+          <th>Indviet</th>
+        </tr>
+        <tr>
+          <td>Russky</td>
+          <td>Vladivostok, Rusland</td>
+          <td>1104 M</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Sutong</td>
+          <td>Suzhou, Kina</td>
+          <td>1088 M</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Tatara</td>
+          <td>Imabari, Japan</td>
+          <td>890 M</td>
+          <td>1999</td>
+        </tr>
+        <tr>
+          <td>Pont de Normandie</td>
+          <td>Le Havre, Frankrig</td>
+          <td>856 M</td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>Yangpu</td>
+          <td>Shanghai, Kina</td>
+          <td>602 M</td>
+          <td>1993</td>
+        </tr>
+        <tr>
+          <td>Meiko Chuo</td>
+          <td>Nagoya, Japan</td>
+          <td>590 M</td>
+          <td>1996</td>
+        </tr>
+        <tr>
+          <td>Skarnssund</td>
+          <td>Trondheim, Norge</td>
+          <td>530 M</td>
+          <td>1991</td>
+        </tr>
+        </table>
+    </div>
+<br>
+<br>
+  </div>
+  <div>
+    <h3>Sådan Bliver StorStrømsBroen bygget Mellem Sjælland og Falster</h3>
+    <video controls autoplay loop>
+      <source src="Videos/Sådan bygger vi Storstrømsbroen.mp4" type="video/mp4">
+    </video>
+    <br>
+    <br>
+    <a href="https://www.vejdirektoratet.dk/projekt/storstroemsbroen/fotos-film-kort">Kilde til video</a>
+  </div>
+
+
+
+</body>
+<footer>
+  <h3>Made by Frøstrup</h3>
+  <img id="Facebook" src="Image/Facebook.png">
+  <img id="Instagram" src="Image/Instagram.png">
+  <img id="Snapchat" src="Image/Snapchat.png">
+</footer>
+</html>
